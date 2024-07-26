@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <header>
         <div class="top">
@@ -17,8 +21,10 @@
             <div class="top_rights">
                 <div class="right_side">
                     <ul class="float_right">
-                        <li class="upper" class="first" style="border-right: 1px solid #4a4a4a;"><a href="#">GIFT CARD</a></li>
-                        <li class="upper" class="first" style="border-right: 1px solid #4a4a4a;"><a href="#">TRACK ORDER</a></li>
+                        <li class="upper" class="first" style="border-right: 1px solid #4a4a4a;"><a href="#">GIFT
+                                CARD</a></li>
+                        <li class="upper" class="first" style="border-right: 1px solid #4a4a4a;"><a href="#">TRACK
+                                ORDER</a></li>
                         <li class="first"><a href="#">CONTACT US</a></li>
                     </ul>
                 </div>
@@ -29,37 +35,42 @@
                 <img class="imglg" src="	https://themewagon.github.io/eiser/img/logo.png" alt="">
             </div>
             <div class="nav">
-                <div class="toggle">
+                <!-- <div class="toggle">
                     <i class="fa-solid fa-bars"></i>
-                </div>
-                <div class="items">
+                </div> -->
+                <div class="items" id="bot_nav">
                     <ul>
-                        <li><a href="#home" >HOME</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropbtn" style="color: #71cd14;">HOME</a>
+                        </li>
                         <li class="dropdown">
                             <a href="#" class="dropbtn" style="color: #71cd14;">SHOP</a>
                             <div class="dropdown-content">
-                              <a href="#">SHOP CATEGORY</a>
-                              <a href="#">PRODUCT DETAILS</a>
-                              <a href="#">PRODUCT CHECKOUT</a>
-                              <a href="#">SHOPPING CART</a>
+                                <a href="#">SHOP CATEGORY</a>
+                                <a href="#">PRODUCT DETAILS</a>
+                                <a href="#">PRODUCT CHECKOUT</a>
+                                <a href="#">SHOPPING CART</a>
                             </div>
-                          </li>
-                          <li class="dropdown">
+                        </li>
+                        <li class="dropdown">
                             <a href="#" class="dropbtn">BLOG</a>
                             <div class="dropdown-content">
-                              <a href="#">BLOG</a>
-                              <a href="#">BLOG DETAILS</a>
+                                <a href="#">BLOG</a>
+                                <a href="#">BLOG DETAILS</a>
                             </div>
-                          </li>
-                          <li class="dropdown">
+                        </li>
+                        <li class="dropdown">
                             <a href="#" class="dropbtn">PAGES</a>
                             <div class="dropdown-content">
-                              <a href="#">TRACKING</a>
-                              <a href="#">ELEMENTS</a>
+                                <a href="#">TRACKING</a>
+                                <a href="#">ELEMENTS</a>
                             </div>
-                          </li>
-                        <li><a href="#news">CONTACT</a></li>
-                      </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropbtn" style="color: #71cd14;">CONTACT</a>
+                        </li>
+                        <li><a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="icons">
@@ -73,6 +84,8 @@
                 </div>
             </div>
         </div>
+    </div>
+            
     </header>
     <div class="section">
         <div class="top_left">
@@ -81,8 +94,8 @@
         </div>
         <div class="top_right">
             <a href="#">Home / </a>
-              <a href="#">Shop / </a>
-              <a href="#">Women Fashion</a>
+            <a href="#">Shop / </a>
+            <a href="#">Women Fashion</a>
         </div>
     </div>
     <!-- ---- product wale ho gaye ---- -->
@@ -93,13 +106,13 @@
                     <aside class="side">
                         <h2>Browse Categories</h2>
                         <hr>
-                    <ul>
-                        <li><a href="#">Frozen Fish</a></li>
-                        <li><a href="#">Dried Fish</a></li>
-                        <li><a href="#">Fresh Fish</a></li>
-                        <li><a href="#">Meat Alternatives</a></li>
-                        <li><a href="#">Meat</a></li>
-                    </ul>
+                        <ul>
+                            <li><a href="#">Frozen Fish</a></li>
+                            <li><a href="#">Dried Fish</a></li>
+                            <li><a href="#">Fresh Fish</a></li>
+                            <li><a href="#">Meat Alternatives</a></li>
+                            <li><a href="#">Meat</a></li>
+                        </ul>
                     </aside>
                 </div>
                 <div class="have" style="padding-left: 10px;">
@@ -119,61 +132,63 @@
                     <aside class="side">
                         <h2>Color Filter</h2>
                         <hr>
-                    <ul>
-                        <li><a href="#">Black</a></li>
-                        <li><a href="#">Black Leather</a></li>
-                        <li><a href="#">Black with red</a></li>
-                        <li><a href="#">Gold</a></li>
-                        <li><a href="#">Spacegrey</a></li>
-                    </ul>
+                        <ul>
+                            <li><a href="#">Black</a></li>
+                            <li><a href="#">Black Leather</a></li>
+                            <li><a href="#">Black with red</a></li>
+                            <li><a href="#">Gold</a></li>
+                            <li><a href="#">Spacegrey</a></li>
+                        </ul>
                     </aside>
                 </div>
-                <div class="have"style="padding-left: 10px;">
+                <div class="have" style="padding-left: 10px;">
                     <aside class="side">
                         <h2>Price Filter</h2>
                         <hr>
-                    <p>Price : </p>
-                    <input type="range" min="10" max="500" value="10" id="priceRange">
+                        <p>Price : </p>
+                        <input type="range" min="10" max="500" value="10" id="priceRange">
                     <p>$10 - $500</p>
+                        
                     </aside>
                 </div>
             </div>
             <div class="box right">
-                <div class="cols" style="width: 100%;" >
+                <div class="cols" style="width: 100%;">
                     <div class="select_container" style="margin-right: 20px;">
-                        <select name="" id="" class="select-box" >
+                        <select name="" id="" class="select-box">
                             <option value="1">Default sorting</option>
                             <option value="2">Default sorting 01</option>
                             <option value="3">Default sorting 02</option>
                         </select>
                     </div>
-                    <div  class="select_container">
+                    <div class="select_container">
                         <select name="" id="" class="select-box">
                             <option value="1">Show 12</option>
                             <option value="2">Show 14</option>
                             <option value="3">Show 16</option>
                         </select>
-                    </div>   
+                    </div>
                 </div>
                 <div class="col">
                     <div class="product-card">
-                        <div><img src="	https://themewagon.github.io/eiser/img/product/inspired-product/i1.jpg" alt=""></div>
+                        <div id="img"><img src="	https://themewagon.github.io/eiser/img/product/inspired-product/i1.jpg"
+                                alt=""></div>
                         <div class="discription">
                             <div>
                                 <a href="#">
-                                  <h4>Latest men’s sneaker</h4>
+                                    <h4>Latest men’s sneaker</h4>
                                 </a>
                                 <div class="text">
-                                  <span>$25.00</span>
-                                  <del>$35.00</del>
+                                    <span>$25.00</span>
+                                    <del>$35.00</del>
                                 </div>
                             </div>
                         </div>
                         <div class="move">
-                            <a href="#" >
+                            <a href="#">
                                 <i class="fa-regular fa-eye" class="click"></i>
                             </a>
-                            <a href="#" >
+                            <a href="#">
                                 <i class="fa-solid fa-heart" class="click"></i>
                             </a>
                             <a href="#">
@@ -184,23 +199,24 @@
                 </div>
                 <div class="col">
                     <div class="product-card">
-                        <div><img src="	https://themewagon.github.io/eiser/img/product/inspired-product/i2.jpg" alt=""></div>
+                        <div><img src="	https://themewagon.github.io/eiser/img/product/inspired-product/i2.jpg" alt="">
+                        </div>
                         <div class="discription">
                             <div>
                                 <a href="#">
-                                  <h4>Latest men’s sneaker</h4>
+                                    <h4>Latest men’s sneaker</h4>
                                 </a>
                                 <div class="text">
-                                  <span>$25.00</span>
-                                  <del>$35.00</del>
+                                    <span>$25.00</span>
+                                    <del>$35.00</del>
                                 </div>
-                              </div>
+                            </div>
                         </div>
                         <div class="move">
-                            <a href="#" >
+                            <a href="#">
                                 <i class="fa-regular fa-eye" class="click"></i>
                             </a>
-                            <a href="#" >
+                            <a href="#">
                                 <i class="fa-solid fa-heart" class="click"></i>
                             </a>
                             <a href="#">
@@ -211,23 +227,24 @@
                 </div>
                 <div class="col">
                     <div class="product-card">
-                        <div><img src="	https://themewagon.github.io/eiser/img/product/inspired-product/i3.jpg" alt=""></div>
+                        <div><img src="	https://themewagon.github.io/eiser/img/product/inspired-product/i3.jpg" alt="">
+                        </div>
                         <div class="discription">
                             <div>
                                 <a href="#">
-                                  <h4>Latest men’s sneaker</h4>
+                                    <h4>Latest men’s sneaker</h4>
                                 </a>
                                 <div class="text">
-                                  <span>$25.00</span>
-                                  <del>$35.00</del>
+                                    <span>$25.00</span>
+                                    <del>$35.00</del>
                                 </div>
-                              </div>
+                            </div>
                         </div>
                         <div class="move">
-                            <a href="#" >
+                            <a href="#">
                                 <i class="fa-regular fa-eye" class="click"></i>
                             </a>
-                            <a href="#" >
+                            <a href="#">
                                 <i class="fa-solid fa-heart" class="click"></i>
                             </a>
                             <a href="#">
@@ -238,23 +255,24 @@
                 </div>
                 <div class="col">
                     <div class="product-card">
-                        <div><img src="	https://themewagon.github.io/eiser/img/product/inspired-product/i4.jpg" alt=""></div>
+                        <div><img src="	https://themewagon.github.io/eiser/img/product/inspired-product/i4.jpg" alt="">
+                        </div>
                         <div class="discription">
                             <div>
                                 <a href="#">
-                                  <h4>Latest men’s sneaker</h4>
+                                    <h4>Latest men’s sneaker</h4>
                                 </a>
                                 <div class="text">
-                                  <span>$25.00</span>
-                                  <del>$35.00</del>
+                                    <span>$25.00</span>
+                                    <del>$35.00</del>
                                 </div>
-                              </div>
+                            </div>
                         </div>
                         <div class="move">
-                            <a href="#" >
+                            <a href="#">
                                 <i class="fa-regular fa-eye" class="click"></i>
                             </a>
-                            <a href="#" >
+                            <a href="#">
                                 <i class="fa-solid fa-heart" class="click"></i>
                             </a>
                             <a href="#">
@@ -265,23 +283,24 @@
                 </div>
                 <div class="col">
                     <div class="product-card">
-                        <div><img src="	https://themewagon.github.io/eiser/img/product/inspired-product/i5.jpg" alt=""></div>
+                        <div><img src="	https://themewagon.github.io/eiser/img/product/inspired-product/i5.jpg" alt="">
+                        </div>
                         <div class="discription">
                             <div>
                                 <a href="#">
-                                  <h4>Latest men’s sneaker</h4>
+                                    <h4>Latest men’s sneaker</h4>
                                 </a>
                                 <div class="text">
-                                  <span>$25.00</span>
-                                  <del>$35.00</del>
+                                    <span>$25.00</span>
+                                    <del>$35.00</del>
                                 </div>
-                              </div>
+                            </div>
                         </div>
                         <div class="move">
-                            <a href="#" >
+                            <a href="#">
                                 <i class="fa-regular fa-eye" class="click"></i>
                             </a>
-                            <a href="#" >
+                            <a href="#">
                                 <i class="fa-solid fa-heart" class="click"></i>
                             </a>
                             <a href="#">
@@ -292,23 +311,24 @@
                 </div>
                 <div class="col">
                     <div class="product-card">
-                        <div><img src="	https://themewagon.github.io/eiser/img/product/inspired-product/i6.jpg" alt=""></div>
+                        <div><img src="	https://themewagon.github.io/eiser/img/product/inspired-product/i6.jpg" alt="">
+                        </div>
                         <div class="discription">
                             <div>
                                 <a href="#">
-                                  <h4>Latest men’s sneaker</h4>
+                                    <h4>Latest men’s sneaker</h4>
                                 </a>
                                 <div class="text">
-                                  <span>$25.00</span>
-                                  <del>$35.00</del>
+                                    <span>$25.00</span>
+                                    <del>$35.00</del>
                                 </div>
-                              </div>
+                            </div>
                         </div>
                         <div class="move">
-                            <a href="#" >
+                            <a href="#">
                                 <i class="fa-regular fa-eye" class="click"></i>
                             </a>
-                            <a href="#" >
+                            <a href="#">
                                 <i class="fa-solid fa-heart" class="click"></i>
                             </a>
                             <a href="#">
@@ -319,23 +339,24 @@
                 </div>
                 <div class="col">
                     <div class="product-card">
-                        <div><img src="	https://themewagon.github.io/eiser/img/product/inspired-product/i7.jpg" alt=""></div>
+                        <div><img src="	https://themewagon.github.io/eiser/img/product/inspired-product/i7.jpg" alt="">
+                        </div>
                         <div class="discription">
                             <div>
                                 <a href="#">
-                                  <h4>Latest men’s sneaker</h4>
+                                    <h4>Latest men’s sneaker</h4>
                                 </a>
                                 <div class="text">
-                                  <span>$25.00</span>
-                                  <del>$35.00</del>
+                                    <span>$25.00</span>
+                                    <del>$35.00</del>
                                 </div>
-                              </div>
+                            </div>
                         </div>
                         <div class="move">
-                            <a href="#" >
+                            <a href="#">
                                 <i class="fa-regular fa-eye" class="click"></i>
                             </a>
-                            <a href="#" >
+                            <a href="#">
                                 <i class="fa-solid fa-heart" class="click"></i>
                             </a>
                             <a href="#">
@@ -346,23 +367,24 @@
                 </div>
                 <div class="col">
                     <div class="product-card">
-                        <div><img src="	https://themewagon.github.io/eiser/img/product/inspired-product/i8.jpg" alt=""></div>
+                        <div><img src="	https://themewagon.github.io/eiser/img/product/inspired-product/i8.jpg" alt="">
+                        </div>
                         <div class="discription">
                             <div>
                                 <a href="#">
-                                  <h4>Latest men’s sneaker</h4>
+                                    <h4>Latest men’s sneaker</h4>
                                 </a>
                                 <div class="text">
-                                  <span>$25.00</span>
-                                  <del>$35.00</del>
+                                    <span>$25.00</span>
+                                    <del>$35.00</del>
                                 </div>
-                              </div>
+                            </div>
                         </div>
                         <div class="move">
-                            <a href="#" >
+                            <a href="#">
                                 <i class="fa-regular fa-eye" class="click"></i>
                             </a>
-                            <a href="#" >
+                            <a href="#">
                                 <i class="fa-solid fa-heart" class="click"></i>
                             </a>
                             <a href="#">
@@ -373,23 +395,24 @@
                 </div>
                 <div class="col">
                     <div class="product-card" class="change">
-                        <div><img src="	https://themewagon.github.io/eiser/img/product/inspired-product/i2.jpg" alt=""></div>
+                        <div><img src="	https://themewagon.github.io/eiser/img/product/inspired-product/i2.jpg" alt="">
+                        </div>
                         <div class="discription">
                             <div>
                                 <a href="#">
-                                  <h4>Latest men’s sneaker</h4>
+                                    <h4>Latest men’s sneaker</h4>
                                 </a>
                                 <div class="text">
-                                  <span>$25.00</span>
-                                  <del>$35.00</del>
+                                    <span>$25.00</span>
+                                    <del>$35.00</del>
                                 </div>
-                              </div>
+                            </div>
                         </div>
                         <div class="move">
-                            <a href="#" >
+                            <a href="#">
                                 <i class="fa-regular fa-eye" class="click"></i>
                             </a>
-                            <a href="#" >
+                            <a href="#">
                                 <i class="fa-solid fa-heart" class="click"></i>
                             </a>
                             <a href="#">
@@ -406,7 +429,7 @@
     <!-- footer html over here -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-column" >
+            <div class="footer-column">
                 <h3>Top Products</h3>
                 <ul>
                     <li><a href="#">Managed Website</a></li>
@@ -415,7 +438,7 @@
                     <li><a href="#">Marketing Service</a></li>
                 </ul>
             </div>
-            <div class="footer-column" >
+            <div class="footer-column">
                 <h3>Quick Links</h3>
                 <ul>
                     <li><a href="#">Jobs</a></li>
@@ -424,7 +447,7 @@
                     <li><a href="#">Terms of Service</a></li>
                 </ul>
             </div>
-            <div class="footer-column" >
+            <div class="footer-column">
                 <h3>Features</h3>
                 <ul>
                     <li><a href="#">Jobs</a></li>
@@ -433,7 +456,7 @@
                     <li><a href="#">Terms of Service</a></li>
                 </ul>
             </div>
-            <div class="footer-column" >
+            <div class="footer-column">
                 <h3>Resources</h3>
                 <ul>
                     <li><a href="#">Guides</a></li>
@@ -455,7 +478,9 @@
             </div>
             <div class="last">
                 <div class="thanks">
-                    <p class="aling_left">Copyright &copy2024 All rights reserved | This template is made with <i class="fa-regular fa-heart"></i> by<a href="https://colorlib.com/" style="cursor: pointer;color: #71cd14;text-decoration: none;">Colorlib</a></p>
+                    <p class="aling_left">Copyright &copy2024 All rights reserved | This template is made with <i
+                            class="fa-regular fa-heart"></i> by<a href="https://colorlib.com/"
+                            style="cursor: pointer;color: #71cd14;text-decoration: none;">Colorlib</a></p>
                 </div>
                 <div class="follow">
                     <div class="aling_right">
@@ -468,5 +493,16 @@
             </div>
         </div>
     </footer>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("bot_nav");
+          if (x.className === "items") {
+            x.className += " responsive";
+          } else {
+            x.className = "items";
+          }
+        }
+        </script>
 </body>
+
 </html>
